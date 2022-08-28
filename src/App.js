@@ -5,6 +5,8 @@ import Footer from "./component/feature/Footer/Footer";
 import {BrowserRouter} from "react-router-dom";
 
 
+
+
 function App() {
   return (
     <div className="App">
@@ -13,8 +15,10 @@ function App() {
       <Router/>
       <Footer/>
       </BrowserRouter>
+      
 
     </div>
+ 
   );
 }
 

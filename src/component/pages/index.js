@@ -5,7 +5,7 @@ import ParentCommittee from "./Parent-committee/Parent-committee";
 import Teacher from "./Teacher/Teacher";
 
 
-export let navPages=["Class","Contact","Home","ParentCommittee","Teacher"];
+// export const navPages=["Class","Contact","Home","ParentCommittee","Teacher"];
 
 export {
     Class,
