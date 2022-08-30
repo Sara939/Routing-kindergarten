@@ -2,21 +2,21 @@
     "KinderGarten": [
     { "Teachers" : [
         {
-            "first name": "lala",
-            "last name": "bill",
-            "phon number":"054492475"
+            "firstname": "lala",
+            "lastname": "bill",
+            "phonnumber":"054492475"
 
         },
         {
-            "first name": "baba",
-            "last name": "gill",
-            "phon number":"054492475"
+            "firstname": "baba",
+            "lastname": "gill",
+            "phonnumber":"054492475"
 
         },
         {
-            "first name": "tata",
+            "firstname": "tata",
             "lastname": "cill",
-            "phon number":"054492475"
+            "phonnumber":"054492475"
 
         }
 
