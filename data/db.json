@@ -1,6 +1,5 @@
-{
-    "KinderGarten": 
-    { "Teachers" : [
+{ 
+        "Teachers" : [
         {
             "firstname": "lala",
             "lastname": "bill",
@@ -20,26 +19,25 @@
 
         }
 
-    ]},
-    {
-        "Class":[
+    ],
+    
+    "Class":
     {
       "grade 1":
-      [
+        [
+            {
+            "child name": "tata",
+            "lastname": "cill",
+            "parent number":"054492475"
+
+        },
         {
-        "child name": "tata",
-        "lastname": "cill",
-        "parent number":"054492475"
+            "child name": "tata",
+            "lastname": "cill",
+            "parent number":"054492475"
 
-    },
-    {
-        "child name": "tata",
-        "lastname": "cill",
-        "parent number":"054492475"
-
-    }]  
-    },
-    {
+        }
+        ],
         "grade 2":
         [
           {
@@ -54,8 +52,8 @@
           "parent number":"054492475"
   
       }]  
-      }]},
-    {
+    },
+
     "Contact":[
         {
             "child name": "tata",
@@ -96,6 +94,6 @@
             "parent number":"054492475",
             "email": "jdfh@gmail.com"
     
-        }]}
+        }]
+    }
     
-}
