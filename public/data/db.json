@@ -1,0 +1,101 @@
+{
+    "KinderGarten": [
+    { "Teachers" : [
+        {
+            "first name": "lala",
+            "last name": "bill",
+            "phon number":"054492475"
+
+        },
+        {
+            "first name": "baba",
+            "last name": "gill",
+            "phon number":"054492475"
+
+        },
+        {
+            "first name": "tata",
+            "lastname": "cill",
+            "phon number":"054492475"
+
+        }
+
+    ]},
+    {
+        "Class":[
+    {
+      "grade 1":
+      [
+        {
+        "child name": "tata",
+        "lastname": "cill",
+        "parent number":"054492475"
+
+    },
+    {
+        "child name": "tata",
+        "lastname": "cill",
+        "parent number":"054492475"
+
+    }]  
+    },
+    {
+        "grade 2":
+        [
+          {
+          "child name": "tata",
+          "lastname": "cill",
+          "parent number":"054492475"
+  
+      },
+      {
+          "child name": "tata",
+          "lastname": "cill",
+          "parent number":"054492475"
+  
+      }]  
+      }]},
+    {
+    "Contact":[
+        {
+            "child name": "tata",
+            "parent name" : "jggjg",
+            "lastname": "cill",
+            "parent number":"054492475",
+            "email": "jdfh@gmail.com"
+    
+        },
+        {
+            "child name": "tata",
+            "parent name" : "jggjg",
+            "lastname": "cill",
+            "parent number":"054492475",
+            "email": "jdfh@gmail.com"
+    
+        },
+        {
+            "child name": "tata",
+            "parent name" : "jggjg",
+            "lastname": "cill",
+            "parent number":"054492475",
+            "email": "jdfh@gmail.com"
+    
+        },
+        {
+            "child name": "tata",
+            "parent name" : "jggjg",
+            "lastname": "cill",
+            "parent number":"054492475",
+            "email": "jdfh@gmail.com"
+    
+        },
+        {
+            "child name": "tata",
+            "parent name" : "jggjg",
+            "lastname": "cill",
+            "parent number":"054492475",
+            "email": "jdfh@gmail.com"
+    
+        }]}
+    
+]}
