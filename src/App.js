@@ -3,19 +3,30 @@ import Router from './Router';
 import Header from "./component/feature/Header/Header";
 import Footer from "./component/feature/Footer/Footer";
 import {BrowserRouter} from "react-router-dom";
+import {createTheme, ThemeProvisor} from '@mui/material/';
+import { ThemeProvider } from '@emotion/react';
+// import { orange, purple } from '@mui/material/colors';
 
 
-
+const MyTheme= createTheme({
+  palette:{
+    success:{
+      main: "#dcedc8"
+    },
+    // success: orange[100]
+  }
+})
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-      <Header/>
-      <Router/>
-      <Footer/>
-      </BrowserRouter>
-      
+      <ThemeProvider theme={MyTheme}>
+        <BrowserRouter>
+        <Header/>
+        <Router/>
+        <Footer/>
+        </BrowserRouter>
+      </ThemeProvider>
 
     </div>
  

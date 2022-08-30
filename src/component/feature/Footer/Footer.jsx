@@ -18,15 +18,16 @@ export default function Footer() {
   const [value, setValue] = React.useState(0);
 
   return (
-    <Box  sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }} elevation={3}>
+    <Box  sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }}  elevation={3}>
       <BottomNavigation
         showLabels
         value={value}
+        sty
         onChange={(event, newValue) => {
           setValue(newValue);
         }}
       >
-        <BottomNavigationAction   label="phone" icon={<PhoneIphoneRoundedIcon/>} />
+        <BottomNavigationAction  label="phone" icon={<PhoneIphoneRoundedIcon/>} />
         <BottomNavigationAction label="email" icon={<AttachEmailRoundedIcon/>} />
         <BottomNavigationAction label="time" icon={<AccessAlarmRoundedIcon/>} />
       </BottomNavigation>
