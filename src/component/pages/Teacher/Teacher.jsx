@@ -18,6 +18,8 @@ function Teacher() {
         .then((data)=>{
             console.log(data);
             setTeachers(data);
+            console.log(teachers);
+
         })
       },[]);
 
@@ -25,7 +27,7 @@ function Teacher() {
 
   return (
     <div className="teacher">
-      <h1>{teachers.Teachers.firstname}</h1>
+      <h1>{teachers}</h1>
 
     <Card sx={{ minWidth: 275 }}>
       <CardContent>
