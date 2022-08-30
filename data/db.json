@@ -1,4 +1,5 @@
-[
+{
+    "Teachers" : [
         {
             "firstname": "lala",
             "lastname": "bill",
@@ -17,4 +18,5 @@
             "phonnumber":"054492475"
 
         }
-]
+    ]
+}
