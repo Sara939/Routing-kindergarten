@@ -25,7 +25,7 @@ function Teacher() {
 
   return (
     <div className="teacher">
-      <h1>{teachers.firstname}</h1>
+      <h1>{teachers.Teachers.firstname}</h1>
 
     <Card sx={{ minWidth: 275 }}>
       <CardContent>

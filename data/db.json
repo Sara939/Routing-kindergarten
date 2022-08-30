@@ -1,5 +1,5 @@
 {
-    "KinderGarten": [
+    "KinderGarten": 
     { "Teachers" : [
         {
             "firstname": "lala",
@@ -98,4 +98,4 @@
     
         }]}
     
-]}
+}
