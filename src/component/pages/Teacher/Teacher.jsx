@@ -1,29 +1,24 @@
 import "./Teacher.css";
 import React, { useEffect, useState } from "react";
-import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
 
-function Teacher() {
-  const [teachers, setTeachers]= useState([]);
+function Teacher({teachers}) {
+  // const [teachers, setTeachers]= useState(null);
 
-    useEffect(() => {
-      fetch("http://localhost:8000/KinderGarten")
-      .then(res => {
-        return res.json()})
-        .then((data)=>{
-            console.log(data);
-            setTeachers(data);
-            console.log(teachers);
+  //   useEffect(() => {
+  //     fetch("http://localhost:8000/Teachers")
+  //     .then(res => {
+  //       return res.json()})
+  //       .then(data =>{
+  //           // console.log(data);
+  //           setTeachers(data);
+  //           console.log(teachers);
 
-        })
-      },[]);
-
-
+  //       })
+  //     },[]);
 
   return (
     <div className="teacher">
