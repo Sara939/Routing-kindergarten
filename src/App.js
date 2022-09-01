@@ -19,19 +19,6 @@ const MyTheme= createTheme({
 })
 
 function App() {
-  const [teachers, setTeachers]= useState(null);
-
-  useEffect(() => {
-    fetch("http://localhost:8000/Teachers")
-    .then(res => {
-      return res.json()})
-      .then(data =>{
-          // console.log(data);
-          setTeachers(data);
-          console.log(teachers);
-
-      })
-    },[]);
 
   return (
     <div className="App">
