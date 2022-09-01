@@ -7,34 +7,37 @@ import Typography from '@mui/material/Typography';
 
 
 function Teacher() {
-  const [teachers, setTeachers]= useState(null);
+  const [teachers, setTeachers]= useState({});
 
     useEffect(() => {
       fetch("http://localhost:8000/Teachers")
       .then(res => {
         return res.json()})
         .then(data =>{
-            console.log(data);
+            // console.log(data);
             setTeachers([data]);
 
         })
-      },[]);
-      
+      });
   return (
     <div className="teacher">
-      {teachers.map(teachers=>{
+      
+      {teachers.map(item=>{
         return (    
-        <Card sx={{ minWidth: 275 }} >
-      <CardContent>
-        <Typography variant="h5" component="div">
-          {teachers.firstname}
-        </Typography>
-        <Typography sx={{ mb: 1.5 }} color="text.secondary">
-          phone
-        </Typography>
-      </CardContent>
-    </Card>)
-      })}
+          <h1 key={item.}>{item.firstname}</h1>
+    //     <Card sx={{ minWidth: 275 }} >
+          
+    //   <CardContent >
+    //     <Typography variant="h5" component="div" key={index} >
+    //       {item.firstname}
+    //     </Typography>
+    //     <Typography sx={{ mb: 1.5 }} color="text.secondary">
+    //       phone
+    //     </Typography>
+    //   </CardContent>
+    // </Card>)
+      )})}
+        
     </div>
   );
 };
