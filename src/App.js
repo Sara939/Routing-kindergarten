@@ -3,11 +3,10 @@ import Router from './Router';
 import Header from "./component/feature/Header/Header";
 import Footer from "./component/feature/Footer/Footer";
 import {BrowserRouter} from "react-router-dom";
-import {createTheme, ThemeProvisor} from '@mui/material/';
-import { ThemeProvider } from '@emotion/react';
+import {createTheme, ThemeProvider} from '@mui/material/';
 import React, { useEffect, useState } from "react";
-import { Teacher } from './component/pages';
 // import { orange, purple } from '@mui/material/colors';
+
 
 
 const MyTheme= createTheme({

@@ -3,24 +3,20 @@ import React, { useEffect, useState } from "react";
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-// import uuid from 'uuid/v1';key={uuid()}
+import GetInfo from "../../../service/serverApi";
 
 
 function Teacher() {
-  const [teachers, setTeachers]= useState({Teachers:[]});
+  const [teachers, setTeachers]= useState([]);
 
-    useEffect(() => {
-      fetch("http://localhost:8000/Teachers")
-      .then(res => {
-        return res.json()})
-        .then(data =>{ setTeachers(data);
-
-        })
-      },[]);
+  GetInfo().then((res)=> setTeachers(res))
+  // console.log(teachers);
+//  const {Teachers,Class,Contact} = teachers
 
   return (
     <div className="teacher">
-      {console.log(teachers[0].firstname)}
+      {teachers.map((item)=>item.name)}
+      
     </div>
   );
 };
